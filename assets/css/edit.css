@@ -2,3 +2,7 @@
 {
 	margin-top: 20px;
 }
+..typer-text {
+        -webkit-animation-duration: 2s;
+       -webkit-animation-delay: 0s;
+}
