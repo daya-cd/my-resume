@@ -2,7 +2,30 @@
 {
 	margin-top: 20px;
 }
-..typer-text {
+.typer-text {
         -webkit-animation-duration: 2s;
        -webkit-animation-delay: 0s;
+}
+.custom-content-wrapper p.desc
+{
+  margin-bottom: 0px !important;
+}
+
+.side-nav a 
+{
+  height: 38px;
+}
+.screenshots figcaption .caption-content 
+{
+
+ width: 300px !important;
+ top: 50% !important;
+}
+.back-btn {
+    text-align: left;
+}
+
+.single-project-img img
+{
+	
 }
