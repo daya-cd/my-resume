@@ -121,10 +121,10 @@ $(document).ready(function() {
             backBtn       = $('#back-button'),
             filterBtn     = $('#filter-button');
 
-        dataHide.animate( { 'marginLeft':'-120%' }, { duration: 400, queue: false } );
-        filterBtn.animate( { 'marginLeft':'-120%' }, { duration: 400, queue: false } );
-        dataHide.fadeOut(400);
-        filterBtn.fadeOut(400);
+        dataHide.animate( { 'width':'50%' }, { duration: 400, queue: false } );
+        filterBtn.animate( { 'width':'50%' }, { duration: 400, queue: false } );
+        dataHide.fadeOut(100);
+        filterBtn.fadeOut(100);
         setTimeout( function() { preLoader.show(); }, 400);
         setTimeout( function() {
             dataShow.load( href, function() {
@@ -149,8 +149,8 @@ $(document).ready(function() {
         dataHide.fadeOut(400);
         $(this).fadeOut(400);
         setTimeout(function(){
-            dataShow.animate( { 'marginLeft': '0' }, { duration: 400, queue: false } );
-            filterBtn.animate( { 'marginLeft': '0' }, { duration: 400, queue: false } );
+            dataShow.animate( { 'width':'100%' }, { duration: 400, queue: false } );
+            filterBtn.animate( { 'width':'100%' }, { duration: 400, queue: false } );
             dataShow.fadeIn(400);
             filterBtn.fadeIn(400);
         },400);
