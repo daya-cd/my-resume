@@ -276,7 +276,7 @@ body {
 .section .fa {
   text-align: center;
   display: block;
-  font-size: 30pt;
+  font-size: 33pt;
 }
 .section .section-wrapper {
   background-color: #ffffff;
@@ -637,7 +637,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   border-radius: 5px;
 }
 .full-project {
-  padding: 30px !important;
+  padding: 25px !important;
 }
 .single-project {
   background-color: #fff;

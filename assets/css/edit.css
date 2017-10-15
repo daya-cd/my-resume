@@ -27,7 +27,7 @@
 
 .single-project-img img
 {
-	
+	opacity: 0.8;
 }
 .no-left-padding
 {
@@ -40,8 +40,12 @@
     display: inline-block !important;
     vertical-align: middle !important; 
 }
+.project-description h2 
+{
+	font-size: 16px;
+}
 .project-description p {
-	display: inline;padding-left: 5px;
+	display: inline;padding-left: 0px;
 	    font-weight: 400;
 }
 .project-description li
@@ -51,4 +55,13 @@
 .project-description a
 {
 	color: #1abc9c;
+}
+.personal h4, .work h4
+{
+	font-size: 12px !important;
+}
+.box
+{
+	    padding-right: 15px !important;
+	    min-height: 180px;
 }
