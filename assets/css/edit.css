@@ -38,6 +38,7 @@
 	font-size: 27px !important;
     padding-right: 10px;
     display: inline-block !important;
+    vertical-align: middle !important; 
 }
 .project-description p {
 	display: inline;padding-left: 5px;
